@@ -1,3 +1,4 @@
+import { Pool } from '@perpetual-motion-app/shared';
 export interface TokenStats {
     priceChange: number;
     buyVolume: number;
@@ -60,7 +61,7 @@ export interface GetNewPoolsParams {
     limit?: number;
 }
 export interface GetNewPoolsResponse {
-    pools: JupiterPool[];
+    pools: Pool[];
     hasMore: boolean;
     nextCursor?: number;
 }

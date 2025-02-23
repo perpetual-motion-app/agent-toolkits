@@ -1,3 +1,5 @@
+import { Pool } from '@perpetual-motion-app/shared';
+
 export interface TokenReference {
   id: string;
   type: string;
@@ -69,7 +71,7 @@ export interface PoolData {
 }
 
 export interface GetNewPoolsResponse {
-  data: PoolData[];
+  data: Pool[];
   meta: {
     total_pages: number;
     current_page: number;

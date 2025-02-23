@@ -1,0 +1,17 @@
+{
+  "name": "@agent-toolkits/test",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--loader ts-node/esm' node integration.ts"
+  },
+  "dependencies": {
+    "@agent-toolkits/jupiter-get-new-pools": "workspace:*",
+    "@agent-toolkits/geckoterminal-get-new-pools": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.19"
+  }
+} 

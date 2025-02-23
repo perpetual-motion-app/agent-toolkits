@@ -1,6 +1,10 @@
-import { BaseToolkit } from '@agent-toolkits/base';
+import { BaseToolkit, Tool } from '@agent-toolkits/base';
 export declare class GeckoTerminalGetNewPoolsToolkit extends BaseToolkit {
     constructor();
-    private getNewPoolsTool;
+    /**
+     * Convert a GeckoTerminal pool to the normalized format
+     */
+    private normalizePool;
+    getNewPoolsTool(): Tool;
 }
 export * from './types';

@@ -26,6 +26,24 @@ importers:
         specifier: ^5.3.3
         version: 5.7.3
 
+  packages/shared-types:
+    devDependencies:
+      '@types/jest':
+        specifier: ^29.5.12
+        version: 29.5.14
+      '@types/node':
+        specifier: ^20.11.19
+        version: 20.17.19
+      jest:
+        specifier: ^29.7.0
+        version: 29.7.0(@types/node@20.17.19)(ts-node@10.9.2(@types/node@20.17.19)(typescript@5.7.3))
+      ts-jest:
+        specifier: ^29.1.2
+        version: 29.2.5(@babel/core@7.26.9)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.26.9))(jest@29.7.0(@types/node@20.17.19)(ts-node@10.9.2(@types/node@20.17.19)(typescript@5.7.3)))(typescript@5.7.3)
+      typescript:
+        specifier: ^5.3.3
+        version: 5.7.3
+
   packages/toolkit-geckoterminal-get-new-pools:
     dependencies:
       '@agent-toolkits/base':

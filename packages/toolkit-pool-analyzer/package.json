@@ -1,0 +1,32 @@
+{
+  "name": "@agent-toolkits/pool-analyzer",
+  "version": "1.0.0",
+  "description": "Toolkit for analyzing and filtering liquidity pools based on various criteria",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "agent",
+    "toolkit",
+    "defi",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@agent-toolkits/base": "workspace:*",
+    "@agent-toolkits/geckoterminal-get-new-pools": "workspace:*",
+    "date-fns": "^3.3.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+}

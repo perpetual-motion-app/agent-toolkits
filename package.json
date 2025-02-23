@@ -1,0 +1,12 @@
+{
+  "name": "agent-toolkits",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of agent toolkits for different purposes",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["agent", "toolkit", "ai"],
+  "author": "",
+  "license": "MIT"
+} 

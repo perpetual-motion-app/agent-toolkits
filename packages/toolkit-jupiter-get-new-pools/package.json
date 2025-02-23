@@ -1,0 +1,26 @@
+{
+  "name": "@agent-toolkits/jupiter-get-new-pools",
+  "version": "1.0.0",
+  "description": "Toolkit for fetching new pools from Jupiter API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["agent", "toolkit", "jupiter", "solana", "defi"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@agent-toolkits/base": "workspace:*",
+    "axios": "^1.6.7",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.19",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+} 

@@ -1,0 +1,21 @@
+{
+  "name": "@agent-toolkits/base",
+  "version": "1.0.0",
+  "description": "Base toolkit class and utilities for building agent toolkits",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": ["agent", "toolkit", "base"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.19",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+} 
